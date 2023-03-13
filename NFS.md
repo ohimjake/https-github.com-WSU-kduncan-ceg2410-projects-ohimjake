@@ -19,7 +19,7 @@
     - Command to export all directories in `/etc/exports`
       -exportfs -r 
     - Command to restart `nfs`
-     -Sudo service nfs restart
+      -Sudo service nfs restart
 
 Screenshot your block devices (`lsblk`), the permissions of your shareable folder, and what folders are currently shared (`exportfs`)
 ![image](https://user-images.githubusercontent.com/112041435/224788876-509c7b90-bfec-4a4e-a8a1-b18780df5365.png)
